@@ -1,0 +1,127 @@
+.authorByID_page {
+    padding-bottom: 3em;
+  .firtsSec {
+    gap: 3em;
+    .left {
+      width: 35%;
+      height: 100%;
+      img {
+        border-radius: 22px;
+        height: 481px;
+      }
+    }
+    .right {
+      padding-top: 2.5em;
+      width: 65%;
+      .name_author {
+        color: #d1b89d;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+      }
+      .desc_auth {
+        width: 90%;
+        font-size: 16px;
+        font-family: "Poppins";
+        font-weight: 400;
+        line-height: 24px;
+        color: #0d0d0dcc;
+        word-wrap: break-word;
+        word-break: keep-all;
+      }
+      .dates {
+        .flex {
+          .line {
+            color: #d1b89d;
+            font-family: "Poppins";
+            font-weight: 400;
+            font-size: 39px;
+            line-height: 56.32px;
+          }
+          .text {
+            color: #0d0d0d99;
+            font-family: "Poppins";
+            font-weight: 400;
+            font-size: 15.6px;
+            line-height: 18px;
+          }
+          .date_a {
+            color: #d1b89d;
+            font-family: "Poppins";
+            font-weight: 400;
+            font-size: 39px;
+            line-height: 56.32px;
+          }
+        }
+      }
+    }
+  }
+  .secondSec {
+    .top {
+      .works {
+        color: #d1b89d;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 46.5px;
+      }
+      .view_all {
+        color: #0d0d0d;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    .notFoundText {
+      margin-top: 2em;
+      font-size: 1.3em;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .authorByID_page {
+    .firtsSec {
+      .left {
+        img {
+          height: 350px;
+          border-radius: 50px;
+        }
+      }
+      .right {
+        .dates {
+          .date_a {
+            font-size: 29px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 567px) {
+    .authorByID_page{
+        .firtsSec{
+            gap: 0;
+            flex-direction: column;
+            .left{
+                height: 30vh;
+                width: 100%;
+                img{
+                    height: 100%;
+                }
+            }
+            .right{
+                width: 100%;
+            }
+        }
+    }
+}

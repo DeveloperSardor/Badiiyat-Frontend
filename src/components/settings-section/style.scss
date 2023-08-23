@@ -1,0 +1,50 @@
+
+
+.settings{
+    .heading{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .inputs{
+        .flex{
+            // color: #464E5F;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 19.5px;
+            select{
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+            }
+            .mode_btn {
+                width: 87px;
+                height: 30px;
+                box-shadow: rgba(100, 100, 111, 0.2) 6px 8px 29px 12px;
+                background: #f3f6f9;
+                border-radius: 60px;
+                position: relative;
+                cursor: pointer;
+                &::before {
+                  content: "";
+                  position: absolute;
+                  width: 28px;
+                  height: 30px;
+                  border-radius: 50%;
+                  background: #3699FF;
+                  top: 5% ;
+                  left: 0;
+                }
+              }
+              .mode_btn.active{
+                  &::before{
+                    top: 0;
+                    left: 58px;
+                 }
+              }
+        }
+    }
+}

@@ -1,0 +1,157 @@
+.bookByID_page{
+    padding-bottom: 3em;
+    .firtsSec{
+        gap: 1em;
+        .left{
+            width: 35%;
+            height: 100%;
+            img{
+                width: 80%;
+                border-radius: 22px;
+                height: 481px;
+            }
+        }
+        .right{
+            padding-top: 2.5em;
+            width: 65%;
+            .title_book{
+                color: #D1B89D;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 72px;
+            }
+         .desc_book{
+            width: 90%;
+            font-size: 16px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            line-height: 24px;
+            color: #0D0D0DCC;
+            word-wrap: break-word;
+            word-break:keep-all;
+         }
+       
+         .datas{
+         .flex{
+            .first_a{
+                color: #0D0D0D99;
+                font-style: Poppins;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .second_a{
+                color: #0D0D0D;
+                font-style: Poppins;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px; 
+            }
+         }
+         }
+         .full_info{
+         .full_text{
+            color: #D1B89D;
+            font-family: Poppins;
+            font-size: 17.4px;
+            line-height: 24px;
+            font-weight: 400;
+         }
+         .line{
+            width: 75%;
+            padding: 0.5px;
+            background: #D1B89D;
+         }
+         .desc{
+            width: 93%;
+            word-wrap: break-word;
+            word-break: keep-all;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #0D0D0DCC;
+         }
+         }
+        }
+    }
+    .secondSec{
+        .top{
+            .works{
+                color: #D1B89D;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 29px;
+                line-height: 46.5px;
+            }
+            .view_all{
+                color: #0D0D0D;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+         .notFoundText{
+            margin-top: 2em;
+            font-size: 1.3em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .bookByID_page {
+    .firtsSec {
+      .left {
+        img {
+          height: 350px;
+        }
+      }
+      .right {
+        .dates {
+          .date_a {
+            font-size: 29px !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 567px) {
+    .bookByID_page{
+        .firtsSec{
+            .first_a{
+                font-size: 16px !important;
+            }
+            .second_a{
+                font-size: 16px !important;
+            }
+            .title_book{
+                font-size: 2.4em !important;
+            }
+            gap: 0;
+            flex-direction: column;
+            .left{
+                height: 30vh;
+                width: 100%;
+                img{
+                    height: 100%;
+                }
+            }
+            .right{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.author-card{
+    border-radius: 22px;
+    height: 405px;
+    width: 325px;
+    background: rgb(245, 245, 245);
+    .author_img{
+        width: 100%;
+        border-top-left-radius: 21px;
+        border-top-right-radius: 22px;
+        height: 60%;
+    }
+    .body{
+        .author_name{
+            font-family: 'Poppins';
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: #000;
+        }
+        .author_date{
+            color: #000000;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 24px;
+        }
+
+    }
+    .naqsh{
+        transform: translateY(-0.5em);
+    }
+    .secondNaqsh{
+        transform: rotate(190deg);
+    }
+}
+
+
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){}
+@media only screen and (max-width : 992px){}
+@media only screen and (max-width : 768px){
+   .author-card{
+    width: 47%;
+    margin-top: 1.4em;
+   }
+}
+@media only screen and (max-width : 567px){
+    .author-card{
+        width: 90%;
+        margin-top: 1.6em;
+    }
+}
+@media only screen and (max-width : 350px){}

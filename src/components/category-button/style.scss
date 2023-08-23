@@ -1,0 +1,35 @@
+
+    .category{
+      color: rgb(211, 211, 211);
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: 400;
+      font-family: 'Poppins';
+    }
+    .active_cat.category{
+          color: #C9AC8C;
+    }
+
+
+    @media only screen and (max-width: 1400px){}
+    @media only screen and (max-width: 1200px){}
+    @media only screen and (max-width: 992px){}
+    @media only screen and (max-width: 768px){
+      .category{
+        // color: #171923;
+        padding: 0.6em;
+        border-radius: 13px;
+        box-shadow: 2px 5px 7px -3px rgba(0,0,0,.2);
+      }
+      
+      .dark.layout{
+        .category{
+          background: #171923;
+          .active_cat.category{
+            background: #C9AC8C;
+            color: #fff !important;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 567px){}

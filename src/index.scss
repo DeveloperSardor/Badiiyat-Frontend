@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgb(255, 255, 255);
+  color: #000;
+}
+.dark-header {
+  background: #171923;
+  .right-menu {
+    a {
+      color: rgb(255, 255, 255) !important;
+    }
+    .relative {
+      color: #fff !important;
+      a {
+        color: #000 !important;
+      }
+    }
+  }
+}
+
+.layout.dark {
+  background: #1a202c;
+  color: rgb(255, 255, 255);
+  .desc_auth, .text, .full_text, .first_a, .second_a, .desc, .view_all {
+    color: #fff !important;
+  }
+
+  
+}
+
+.profile-page.dark {
+  background: #1a202c;
+  color: rgb(255, 255, 255);
+  .profile_sec {
+    .right {
+      .title {
+        color: #fff !important;
+      }
+    }
+  }
+  .security {
+    .heading {
+      color: #fff;
+    }
+    label {
+      color: #fff !important;
+    }
+  }
+ 
+}
+
+.layout {
+  background: rgb(255, 255, 255);
+  color: #000;
+  .container {
+    width: 95%;
+  }
+}

@@ -1,0 +1,37 @@
+.home-page{
+    padding-bottom: 6em;
+    min-height: 120vh;
+    .mainCSec{
+        margin-top: 6.5em;
+        .main_title{
+            font-size: 32px;
+            line-height: 48px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            color: #C9AC8C;
+        }
+        .notFoundText{
+            // color: #C9AC8C;
+            margin-top: 2em;
+            font-size: 1.3em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .authors_wrp{
+            margin-top: 3em;
+        }
+    }
+}
+
+
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){}
+@media only screen and (max-width : 992px){}
+@media only screen and (max-width : 768px){
+    .home-page{
+        .btn-group{
+            padding: 1.6em 2em;
+            width: 100% !important;
+        }
+    }
+}
+@media only screen and (max-width : 567px){}

@@ -1,0 +1,133 @@
+.register-page{
+    display: flex;
+    height: 100vh;
+    .left{
+        width: 50%;
+        height: 100vh;
+        background: #C9AC8C;
+    }
+    .right{
+        height: 100vh;
+        width: 50%;
+        padding: 6.8em 8%;
+        .main_title{
+            font-family: Arial Black;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 50.77px;
+            color: #000000;
+        }
+        .info_text{
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 13.9px;
+            line-height: 29.50px;
+            color: #000000;
+            .sign_up_text{
+                cursor: pointer;
+                color: #549FF9;
+            }
+        }
+        form{
+            input{
+                font-family: Roboto;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16.41px;
+                padding-left:20px;
+                border: 1px solid #B4B4BB;
+                width: 330px;
+                height: 46px;
+                border-radius: 4px;
+                &::placeholder{
+                    font-family: Roboto;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16.41px;
+                    color: #AAAAAA;
+                }
+            }
+            .react-tel-input{
+                .form-control{
+                    padding-left: 50px !important;
+                }
+            }
+            .next_btn{
+                width: 328px;
+                height: 50px;
+                border-radius: 99px;
+                color:  #FFFFFF;
+                font-family: Red Hat Display;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 36px;
+                align-items: center;
+                background:  #152540;
+                .lds-dual-ring {
+                    display: inline-block;
+                    width: 35px !important;
+                    height: 30px !important;
+                    margin-top: -.6.5em;
+                  }
+                  .lds-dual-ring:after {
+                    content: " ";
+                    display: block;
+                    width: 45px;
+                    height: 45px;
+                    margin: 8px;
+                    margin-top: -4px;
+                    border-radius: 50%;
+                    border: 6px solid #fff;
+                    border-color: #fff transparent #fff transparent;
+                    animation: lds-dual-ring 1.2s linear infinite;
+                  }
+                  @keyframes lds-dual-ring {
+                    0% {
+                      transform: rotate(0deg);
+                    }
+                    100% {
+                      transform: rotate(360deg);
+                    }
+            }}}
+        }}
+
+
+        
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){}
+@media only screen and (max-width : 992px){}
+@media only screen and (max-width : 768px){
+  .register-page{
+    .left{
+        display: none;
+    }
+    .right{
+        padding-left: 15%;
+        width: 100%;
+        background: #e4dfd9;
+
+  }
+  }
+
+}
+@media only screen and (max-width : 567px){
+    .register-page{
+        .right{
+            padding-left: 7%;
+        }
+    }
+}
+@media only screen and (max-width : 375px){
+    .register-page{
+        .right{
+            form{
+                input{
+                  width: 100%;
+                }
+                button{
+                  width: 100% !important;
+                }
+               }
+        }
+    }
+}

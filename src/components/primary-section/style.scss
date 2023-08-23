@@ -1,0 +1,63 @@
+.primary_section{
+    height: 65vh;
+    .first{
+        padding: 3em 5em;
+      background-size: cover;
+        height: 100%;
+        .title{
+            font-size: 3.3em;
+            width: 10%;
+            line-height: 1.3em;
+            font-weight: 500;
+            font-family:'Courier New', Courier, monospace;
+            color: rgb(209, 184, 157);
+        }
+        .indicatiors-wrp{
+            display: flex;
+            gap: 2em;
+            margin-top: 2em;
+            padding: 1em 0 ;
+            .indecators{
+                height: 3px;
+                width: 75px;
+                border-radius: 4px;
+                padding: 2px;
+                background: rgb(154, 161, 162);
+                cursor: pointer;
+            }
+            .indecators.activ_ind{
+                background: rgb(237, 237, 237);
+            }
+        }
+       
+    }
+}
+
+
+
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){}
+@media only screen and (max-width : 992px){}
+@media only screen and (max-width : 768px){
+   .primary_section{
+    .first{
+        padding-bottom: 0;
+        .title{
+            font-size: 2.5em;
+        }
+    }
+   }
+}
+@media only screen and (max-width : 567px){
+    .primary_section{
+        .first{
+            padding-left: 2.5em;
+            .title{
+                font-size: 2em;
+                color: #fff;
+                font-weight: 700 !important;
+            }
+        }
+    }
+}
+@media only screen and (max-width : 350px){}

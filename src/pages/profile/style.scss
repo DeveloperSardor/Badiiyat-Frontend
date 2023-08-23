@@ -1,0 +1,161 @@
+.profile-page {
+  // height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 3.5em;
+  .top-header {
+    width: 100%;
+    .option {
+        padding: 1.5em 2em;
+        width: 33.3%;
+        background: #F3F6F9;
+      button {
+        background: #e5eaee;
+        border-radius: 4px;
+        width: 35px;
+        height: 35px;
+        color: #3699ff;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .opt_text {
+        color: #464e5f;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+    .active_opt {
+        background: #DDE6F5;
+      button {
+        background: #152540;
+        width: 35px;
+        height: 35px;
+        border-radius: 4px;
+        color: #ffffff;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .opt_text {
+        color: #152540;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+  .section{
+    .bottom{
+      .btn.to_home{
+        background: #152540a5;
+        width: 141.99px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 48px;
+        border-radius: 4px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 19.5px;
+        color: #ffffff;
+      }
+        .btn.save{
+            background: #152540;
+            width: 141.99px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 48px;
+            border-radius: 4px;
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 19.5px;
+            color: #ffffff;
+            .lds-dual-ring {
+                display: inline-block;
+                width: 35px !important;
+                height: 30px !important;
+                margin-top: -.6.5em;
+              }
+              .lds-dual-ring:after {
+                content: " ";
+                display: block;
+                width: 45px;
+                height: 45px;
+                margin: 8px;
+                margin-top: -4px;
+                border-radius: 50%;
+                border: 6px solid #fff;
+                border-color: #fff transparent #fff transparent;
+                animation: lds-dual-ring 1.2s linear infinite;
+              }
+              @keyframes lds-dual-ring {
+                0% {
+                  transform: rotate(0deg);
+                }
+                100% {
+                  transform: rotate(360deg);
+                }
+        }
+        }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){
+ .profile-page{
+ 
+  form{
+    label{
+        font-size: 20.7px;
+      input{
+        padding: 1em 0;
+        font-size: 21px !important;
+      }
+    }
+  }
+  .bottom{
+    .btn.to_home{
+      font-size: 1.3em !important;
+    }
+    button{
+      font-size: 1.3em !important;
+    }
+  }
+ }
+}
+@media only screen and (max-width : 992px){
+  
+}
+@media only screen and (max-width : 768px){
+  .profile-page{
+ 
+  }
+}
+
+@media only screen and (max-width : 567px){
+  .profile-page{
+    .top-header{
+      font-size: 12px;
+     .flex{
+      padding: 2em 0.5em !important;
+     }
+    }
+    .section{
+      padding-bottom: 3em;
+      .bottom{
+        width: 90%;
+      }
+    }
+  }
+}

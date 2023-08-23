@@ -1,0 +1,35 @@
+.book-card{
+    width: 210px;
+    margin-top: 1.4em;
+    height: 350px;
+    .book_img{
+     border-radius: 15px;   
+     height: 80%;
+    }
+    .title_book{
+        color: #000000;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .author_name{
+        color: #0D0D0D99;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){}
+@media only screen and (max-width : 992px){}
+@media only screen and (max-width : 768px){
+  .book-card{
+    width: 48%;
+  }
+}
+@media only screen and (max-width : 567px){}
+@media only screen and (max-width : 350px){}
