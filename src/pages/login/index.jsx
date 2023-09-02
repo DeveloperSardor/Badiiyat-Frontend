@@ -1,6 +1,6 @@
 import React, { useContext, useRef, useState } from "react";
 import "./style.scss";
-import LoginImg from '../../assets/images/login.png'
+import LoginImg from '../../assets/images/login.jpg'
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
